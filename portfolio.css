@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    word-wrap: auto;
+    background-color: #e2e1c0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    list-style: none;
+    /* border-bottom: 2px solid black; */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nav_left, .nav_right{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav_right{
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: large;
+}
+
+main{
+    /* border: 1px solid gainsboro; */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#s1{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */ 
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2vw;
+}
+
+.s1_left{
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-direction: column;
+    height: 40vh;
+    flex: 3;
+    font-size: larger;
+    /* border: 1px solid gray; */
+    border-radius: 24px;
+    padding: 2em ;
+    margin: 0;
+    height: 50vh;
+    /* width: 60vw; */
+    background: linear-gradient( #efd85a, rgb(245, 240, 177) 20%,  #ADD8E6);
+}
+
+.s1_right{
+    flex:1
+}
+
+.s1_img{
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 24px;
+    width: 40vh;
+    flex: 1;
+}
+
+#project{
+    /* border: 1px solid grey; */
+    /* display: flex; */
+    align-items: center;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.project_title{
+    /* border: 1px solid gainsboro; */
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+.project_row{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 1rem;
+    height: 60vh;
+}
+
+.project_box{
+    height: 40vh;
+    flex: 1;
+    border-radius: 24px;
+    /* border: 1px solid grey; */
+    padding: 12px;
+    height: 60vh;
+}
+
+
+.top-section {
+    padding: 20px;
+    text-align: center;
+    /* background-color: #F8E9D2; */
+    color: black;
+    border-radius: 12px;
+}
+
+.app-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.bottom-section {
+    padding: 20px;
+}
+
+.bottom-section h2 {
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.icons img {
+    width: 30px; /* Adjust icon size as needed */
+}
+
+.view-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transition: background-color 0.3s ease;
+}
+
+.foot{ 
+    margin: 2rem;
+    height: 30vh;
+    padding: 5rem;
+    /* border: 1px solid gray; */
+    border-radius: 24px;
+    font-size: larger;
+    background: linear-gradient(to bottom, #8adfea, #f3ebb4 , #e1d592);
+}
+.contact_buttons{
+    margin-top: 5rem;
+}
+.contact_button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transition: background-color 0.3s ease;
+    background-color: #1C1C1E;
+    color: #EEEEEE;
+}
+
+
+
+
+
+/* box styling */
+#first_box{
+    background-color: #008080;
+}
+#first_box .top-section{
+    background-color: #EEEEEE;
+
+}
+#first_box .bottom-section{
+    color: white ;
+}
+
+#second_box{
+    background-color: #39add3;
+}
+
+#second_box .top-section{
+    background-color: #EEEEEE;
+}
+
+#third_box{
+    background-color: #66c166;
+}
+
+#third_box .top-section{
+    background-color: #EEEEEE;
+}
+
+#forth_box{
+    background-color: #800080;
+}
+
+#forth_box .top-section{
+    background-color: #EEEEEE;
+}
+#forth_box .bottom-section{
+    color: #EEEEEE;
+}
+
+#fifth_box{
+    background-color: #ffb42a;
+}
+
+#fifth_box .top-section{
+    background-color: #EEEEEE;
+}
+
+
+#sixth_box{
+    background-color: #2d2d6f;
+}
+
+#sixth_box .top-section{
+    background-color: #EEEEEE;
+}
+#sixth_box .bottom-section{
+    color: #EEEEEE;
+}
